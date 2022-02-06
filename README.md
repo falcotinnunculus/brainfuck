@@ -7,7 +7,7 @@ Project contains five Python and several Brainfuck files.
 
 ### Python files
 
-+ **library.py** contains definitions of functions used by other files: bfcompile() and bfgenerate().
++ **brainlib.py** contains definitions of functions used by other files: bfcompile() and bfgenerate().
 
 + **compile.py** translates Brainfuck code given in input into Python code and executes it.
 
