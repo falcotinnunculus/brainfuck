@@ -8,12 +8,12 @@ Created on Sun Feb  6 03:47:14 2022
 
 from brainlib import bfgenerate
 
-output = input()
+output = input("Enter string: ")
 
 
 bfcode=bfgenerate(output)
 
-name = input()
+name = input("Enter file name: ")
 
 f = open(name,"w")
 f.write(bfcode)

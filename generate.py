@@ -8,7 +8,7 @@ Created on Thu Jan 20 17:20:50 2022
 
 from brainlib import bfgenerate
 
-output = input()
+output = input("Enter string: ")
 
 bfcode=bfgenerate(output)
 print(bfcode)

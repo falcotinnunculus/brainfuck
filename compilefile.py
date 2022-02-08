@@ -8,7 +8,7 @@ Created on Sun Feb  6 03:25:26 2022
 from brainlib import bfcompile
 import numpy as np
 
-name = input()
+name = input("Enter file name: ")
 
 f = open(name,"r")
 

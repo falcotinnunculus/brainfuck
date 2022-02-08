@@ -10,7 +10,7 @@ import numpy as np
 from brainlib import bfcompile
 
 
-bfcode = input()
+bfcode = input("Enter code: ")
 
     
 #%%
